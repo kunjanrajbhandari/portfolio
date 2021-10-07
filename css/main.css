@@ -1,27 +1,19 @@
 /**
  * =================================================================== 
  *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
+ *  Sushant Profile
  *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
- *  02. base style overrides
  *  03. typography & general theme styles
- *  04. preloader
  *  05. forms
  *  06. buttons 
- *  07. other components
  *  08. common styles
  *  09. header styles
  *  10. intro
  *  11. about
  *  12. resume
- *  13. portfolio
- *  14. call-to-action section
  *  15. services
- *  16. stats
  *  17. contact
  *  18. footer
  *
@@ -1109,7 +1101,13 @@ header .logo {
 	margin-top: 25px;
 	position: relative;
 }
-header .logo a {
+
+header .logo a{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+/* header .logo a {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1121,7 +1119,7 @@ header .logo a {
 	height: 15px;
 	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
-}
+} */
 
 /**
  * menu toggle - (_layout.css)
@@ -2110,7 +2108,7 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #151515;
+	background: #2e2b2b;
 	opacity: .9;
 }
 
